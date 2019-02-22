@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Card from './Card';
 
+import propTypes from 'prop-types';
+
 
 
 //DATA FLOW:
@@ -14,7 +16,6 @@ const Cards = props => {
           <Card 
           key={index}
           card={card}
-          tab={card.tab}
           />
         )
       })}
@@ -25,5 +26,16 @@ const Cards = props => {
 }
 
 // Make sure you include prop types for all of your incoming props
+//Incoming prop is the filtered array of cards?
+
+Cards.propTypes = {
+  card: propTypes.array
+}
+//doesnt give me any errors so assuming this works!
+
+//**NOTE** Could also use shape() to check the types of items inside the array but I will be checking them
+// in the cards.js file
+
+
 
 export default Cards;

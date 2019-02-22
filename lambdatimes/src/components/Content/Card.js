@@ -1,5 +1,6 @@
 import React from 'react';
 
+import propTypes from 'prop-types';
 
 
 //DATA FLOW:
@@ -20,5 +21,12 @@ const Card = props => {
 };
 
 // Make sure to include PropTypes.
+
+Card.propTypes = {
+  headline: propTypes.string,
+  img: propTypes.string,
+  author: propTypes.string
+
+}
 
 export default Card;

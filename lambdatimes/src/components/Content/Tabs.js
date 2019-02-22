@@ -1,6 +1,6 @@
 import React from 'react';
 import Tab from './Tab';
-import PropTypes from 'prop-types';
+import propTypes from 'prop-types';
 
 //DATA FLOW:
 //Content > *Tabs* > Tab and Content > Cards > Card
@@ -28,9 +28,9 @@ const Tabs = props => {
 };
 
 // Make sure to use PropTypes to validate your types!
-Tabs.PropTypes = {
-  selectTabHandler: PropTypes.func,
-  selectedTab: PropTypes.string
+Tabs.propTypes = {
+  selectTabHandler: propTypes.func,
+  selectedTab: propTypes.string
 }
 
 
