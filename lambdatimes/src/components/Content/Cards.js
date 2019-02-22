@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import Card from './Card';
 
+
+
+//DATA FLOW:
+//Content > Tabs > Tab and Content > *Cards* > Card
+
 const Cards = props => {
   return (
     <div className="cards-container">

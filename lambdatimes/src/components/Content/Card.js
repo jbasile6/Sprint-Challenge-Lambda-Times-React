@@ -1,5 +1,10 @@
 import React from 'react';
 
+
+
+//DATA FLOW:
+//Content > Tabs > Tab and Content > Cards > *Card*
+
 const Card = props => {
   return (
     <div className="card">

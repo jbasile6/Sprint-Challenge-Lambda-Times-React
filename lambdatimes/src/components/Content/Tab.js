@@ -1,5 +1,10 @@
 import React from 'react';
 
+
+
+//DATA FLOW:
+//Content > Tabs > *Tab* and Content > Cards > Card
+
 const Tab = props => {
   /* Using your props, determine if the `tab` prop matches the `selectedTab` prop, 
       if they match, the className should be: 'tab active-tab', 
