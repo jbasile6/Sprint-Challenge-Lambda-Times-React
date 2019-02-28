@@ -28,10 +28,17 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 
 ## Self-Study/Essay Questions
 
-- [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
-- [ ] Describe a life-cycle event in React?
-- [ ] Explain the details of a Higher Order Component?
-- [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+- [x] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+PropTypes are used to make sure the data that we are receiving is in the correct form(number, string, etc.). It is important to type check our data in JavaScript because it is JavaScript. It does not handle data the same way that HTML does and needs to have a specific type of data or run the risk of creating bugs that disrupt the flow of data and the rendering of our React Apps.
+
+- [x] Describe a life-cycle event in React?
+A life-cycle event is in the same family as the events we listen for when we use event listeners. The big different being that the events are triggered by different points in the flow of the data into the rendering of the page. We can mutate the state in order to trigger the updating phase.
+
+- [x] Explain the details of a Higher Order Component?
+A higher order component, like a higher order function, is a component that takes in another component as an argument. They are used to make reusable logic and functionality for different components when applicable.
+
+- [x] What are three different ways to style components in React? Explain some of the benefits of each.
+Vanilla CSS, SASS, and styled-components. The benefit of vanilla CSS would be that it is the most basic form of CSS. You don't have to worry about nesting or refactoring your code and can pair a CSS file along with each component. SASS benefits would be the ability to nest your CSS making it look cleaner and more organized. Styled-components main benefit would be keeping everything that goes into a component in one place. There is no need for extra CSS or SASS files that clutter your folders and if you are having an issue with your styling you know exactly where to look to find the issue. Also you don't have to worry about creating bugs anywhere in the app other than the component whose file you are working on.
 
 ## Project Setup
 
